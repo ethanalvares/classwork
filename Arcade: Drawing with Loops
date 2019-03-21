@@ -22,8 +22,8 @@ def on_draw():
     arcade.start_render()
     # Draw in here...
     arcade.draw_rectangle_filled(x + r_width/2, r_height/2, r_width, r_height, arcade.color.BROWN)
-    arcade.draw_triangle_filled(tri_center - tri_width/2, rec_height, tri_center + tri_width/2, rec_height,
-                                tri_center, rec_height + tri_height, arcade.color.GREEN)
+    arcade.draw_triangle_filled(t_center - t_width/2, r_height, t_center + t_width/2, r_height,
+                                t_center, r_height + t_height, arcade.color.GREEN)
 
 def on_key_press(key, modifiers):
     pass
