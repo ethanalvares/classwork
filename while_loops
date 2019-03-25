@@ -1,0 +1,45 @@
+my_str = "hello"
+i = 0
+while i < len(my_str):
+    char = my_str[i]
+    print(char)
+   i += 1
+
+numbers = [7, 7, 2, 7, 11]
+i = 0
+
+while i < len(numbers):
+    num = numbers[i]
+    print(num)
+    i += 1
+
+marks = [84, 89, 90, 45, 67]
+i = 0
+
+while i < len(marks):
+    mark = marks[i]
+    print(mark)
+    i += 1
+
+rang = range(10)
+i = 0
+
+while i < len(rang):
+    ran = rang[i]
+    print (ran)
+    
+rang = range(5, 100, 5)
+i = 0
+
+while i < len(rang):
+    ran = rang[i]
+    print (ran)
+    i += 1
+    
+rang = range(100, -1, -5)
+i = 0
+
+while i < len(rang):
+    ran = rang[i]
+    print (ran)
+    i += 1
